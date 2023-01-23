@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/imagePlaylist"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tittlePlaylist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tittlePlaylist"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:padding="3dp"
+            android:textSize="20sp"
+            android:background="#0003DAC5"/>
+
+        <TextView
+            android:id="@+id/followersPlaylist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/followersPlaylist"
+            android:textAlignment="center"
+            android:textColor="#616161"
+            android:paddingBottom="6dp"
+            android:background="#0003DAC5"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

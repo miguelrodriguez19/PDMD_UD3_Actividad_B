@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UD3_Actividad_B_2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tittleSong">Tittle</string>
+    <string name="followersPlaylist">followers</string>
+    <string name="tittlePlaylist">tittle</string>
+</resources>

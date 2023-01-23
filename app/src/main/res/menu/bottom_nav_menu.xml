@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/blueFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Inicio"
+        />
+    <item
+        android:id="@+id/playlistsFragment"
+        android:icon="@drawable/ic_search"
+        android:title="Buscar"/>
+    <item
+        android:id="@+id/redFragment"
+        android:icon="@drawable/ic_biblioteca"
+        android:title="Tu biblioteca" />
+    <item
+        android:id="@+id/greenFragment"
+        android:icon="@drawable/ic_contactless"
+        android:title="Premium" />
+</menu>
